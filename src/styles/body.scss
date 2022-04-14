@@ -1,0 +1,12 @@
+.body {
+    color: white;
+	margin-top: 110px;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	@media (max-width: 992px) {
+		flex-direction: column;
+	}
+}

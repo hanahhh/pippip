@@ -1,0 +1,11 @@
+.footer {
+    width: 100vw;
+    height: 50px;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	@media (max-width: 576px) {
+		display: none;
+	}
+}

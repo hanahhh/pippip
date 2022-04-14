@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    @media (max-width: 992px) {
+        margin-top: 30px;
+    }
+    .formContainer {
+        background: rgba(32, 46, 69, 0.4);
+        width: 375px;
+        height: 530px;
+        border-radius: 4px;
+        padding: 41px 50px;
+        @media (max-width: 992px) {
+            padding: 20px;
+        }
+        @media (max-width: 415px) {
+            width: calc(100vw - 40px);
+        }
+    }
+    
+}

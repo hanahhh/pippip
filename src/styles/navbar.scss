@@ -1,0 +1,38 @@
+.navbar {
+    width: 100vw;
+	max-height: 64px;
+	height: 100%;
+	top: 0;
+	left: 50%;
+    background: transparent;
+    position: fixed;
+    transform: translateX(-50%);
+	z-index: 2000;
+    .container {
+        margin: 0 42px 0 10px;
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @media (max-width: 992px) {
+                justify-content: center;
+            }
+            .logo {
+                display: flex;
+                justify-content: center;
+
+                margin: auto 0;
+                padding: 0; 
+            }
+            .contact {
+                .content {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                @media (max-width: 992px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

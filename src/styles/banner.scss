@@ -1,0 +1,34 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    .center {
+        display: flex;
+        justify-content: start;
+        @media (max-width: 992px) {
+            justify-content: center;
+        }
+    }
+    .button {
+        display: flex;
+    }
+    .iconsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 550px;
+        @media (max-width: 992px) {
+            justify-content: center;
+        }
+        @media (max-width: 576px) {
+            justify-content: center;
+            width: 400px;
+        }
+        @media (max-width: 320px) {
+            justify-content: center;
+            width: 100px;
+        }
+    }
+}

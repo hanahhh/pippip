@@ -1,0 +1,31 @@
+.App {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('./assets/background-origin.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	background-color: #011a4b;
+	position: relative;
+	/* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); */
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	position: relative;
+	overflow: hidden !important;
+	@media (max-width: 992px) {
+			min-height: 100vh;
+			max-height: initial;
+			overflow-y: auto !important;
+			background-position: center;
+	}
+	@media (max-width: 576px) {
+			min-height: 100vh;
+			max-height: initial;
+			justify-content: start;
+			overflow-y: auto !important;
+	}
+}
+
+
+

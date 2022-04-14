@@ -1,0 +1,21 @@
+.homeScreen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	@media (max-width: 992px) {
+		display: none;
+	}
+    .rightBanner {
+        max-width: 610px;
+        max-height: 533px;
+        /* height: auto; */
+        /* width: auto; */
+        position: relative;
+        object-fit: contain;
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+}

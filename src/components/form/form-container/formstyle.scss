@@ -1,0 +1,68 @@
+.signUp {
+    width: 100%;
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+	@media (max-width: 992px) {
+		margin-top: 10px;
+	}
+    .formUp {
+        display: flex;
+        flex-direction: column;
+        .button-half-size {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .button-full-size {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .formDown {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .register {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.signIn {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        @media (max-width: 415px) {
+            align-items: center;
+        }
+        .formUp {
+            display: flex;
+            flex-direction: column;
+            .input {
+                display: flex;
+                flex-direction: column;
+            }
+            .checkBox {
+                display: flex;
+                align-items: center;
+            }
+        }
+        .formDown {
+            display: flex;
+            flex-direction: column;
+            .login {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 24px;
+            }
+        }
+}
